@@ -6,7 +6,7 @@ export const AboutSection = () => {
     <section className="w-full h-full bg-gray-50 dark:bg-[#111827] overflow-hidden">
       <div className="container mx-auto">
         <div className="w-full flex flex-col items-center justify-center">
-          <div className="mt-24 mb-10 bg-gray-200 dark:bg-[#374151]  w-[105px] h-[28px] flex flex-col items-center justify-center rounded-[12px]">
+          <div className="mt-24 mb-10 bg-gray-200 dark:bg-[#374151]  w-[105px] h-[28px] flex flex-col items-center justify-center rounded-[12px] cursor-pointer">
             About me
           </div>
           <div className="w-full flex flex-col md:flex-row mb-24 items-center md:gap-x-6 xl:gap-x-8">

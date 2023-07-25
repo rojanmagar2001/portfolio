@@ -2,7 +2,7 @@
 import React from "react";
 import { CiLocationOn } from "react-icons/ci";
 import { BsDot } from "react-icons/bs";
-import { LuGithub, LuTwitter, LuFacebook } from "react-icons/lu";
+import { LuGithub, LuFacebook, LuLinkedin } from "react-icons/lu";
 import Image from "next/image";
 import TextEffect from "gpt-type-effect";
 
@@ -54,9 +54,27 @@ export const HeroSection = () => {
               </div>
             </div>
             <div className="flex text-lg  gap-x-3">
-              <LuGithub />
-              <LuTwitter />
-              <LuFacebook />
+              <a
+                href="https://github.com/rojanmagar2001"
+                target="_blank"
+                className="hover:text-[#ffc83d]"
+              >
+                <LuGithub />
+              </a>
+              <a
+                href="https://www.linkedin.com/in/rojan-rana-magar-835580231/"
+                target="_blank"
+                className="hover:text-[#ffc83d]"
+              >
+                <LuLinkedin />
+              </a>
+              <a
+                href="https://www.facebook.com/roz3n.magar.0911/"
+                target="_blank"
+                className="hover:text-[#ffc83d]"
+              >
+                <LuFacebook />
+              </a>
             </div>
           </div>
           {/* image */}
