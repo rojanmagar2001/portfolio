@@ -46,8 +46,8 @@ export const AboutSection = () => {
                   on new challenges and learning the latest technologies along
                   the way. Now, in my early thirties, 7 years after starting my
                   web development journey, I&apos;m building cutting-edge web
-                  applications using modern technologies such as Next.js,
-                  TypeScript, Nestjs, Tailwindcss, Supabase and much more.
+                  applications using modern technologies such as Node.js,
+                  TypeScript, Nestjs, Tailwindcss, React, NextJs and much more.
                 </p>
                 <p>
                   I am very much a progressive thinker and enjoy working on
@@ -60,11 +60,11 @@ export const AboutSection = () => {
                   follow me on Twitter where I share tech-related bites and
                   build in public, or you can follow me on GitHub.
                 </p>
-                <p>
+                {/* <p>
                   One last thing, I&apos;m available for freelance work, so feel
                   free to reach out and say hello! I promise I don&apos;t bite
                   😉
-                </p>
+                </p> */}
               </div>
             </div>
           </div>
