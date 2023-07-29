@@ -8,7 +8,7 @@ import { FiLinkedin } from "react-icons/fi";
 
 export const ContactSection = () => {
   return (
-    <section className="w-full h-full overflow-hidden ">
+    <section id="contact" className="w-full h-full overflow-hidden ">
       <div className="container mx-auto">
         <div className="w-full flex flex-col items-center justify-center gap-y-10 mb-20">
           <div className="w-full flex flex-col items-center justify-center mt-24">
@@ -18,7 +18,7 @@ export const ContactSection = () => {
             <div className="">Nice things people have said about me:</div>
           </div>
           <div className="flex flex-col items-center justify-center gap-y-2">
-            <div className="flex items-center justify-between gap-x-4 md:gap-x-8 text-[20px] md:text-[36px] -tracking-[2%] font-thin">
+            <div className="flex items-center justify-between gap-x-4 md:gap-x-8 text-[20px] md:text-[32px] -tracking-[2%] font-thin">
               <a href="mailto: rozenmagar058@gmail.com">
                 <GoMail />
               </a>
@@ -27,7 +27,7 @@ export const ContactSection = () => {
                 <IoCopyOutline />
               </div>
             </div>
-            <div className="flex items-center justify-between gap-x-4 md:gap-x-8 text-[20px] md:text-[36px] -tracking-[2%] font-thin">
+            <div className="flex items-center justify-between gap-x-4 md:gap-x-8 text-[20px] md:text-[32px] -tracking-[2%] font-thin">
               <a href="tel: +9779823196300">
                 <IoCallOutline />
               </a>

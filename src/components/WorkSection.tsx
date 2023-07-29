@@ -4,7 +4,7 @@ import { BsBoxArrowUpRight } from "react-icons/bs";
 
 export const WorkSection = () => {
   return (
-    <section className="w-full h-full overflow-hidden ">
+    <section id="work" className="w-full h-full overflow-hidden ">
       <div className="container mx-auto">
         <div className="w-full flex flex-col items-center justify-center gap-y-10 mb-20">
           <div className="w-full flex flex-col items-center justify-center mt-24">

@@ -44,10 +44,10 @@ export const Navbar = () => {
         </Link>
         <div className="flex justify-between items-center gap-x-10 ">
           <div className="flex justify-between gap-x-4 items-center text-[16px]">
-            <Link href="#about">About</Link>
-            <Link href="#work">Work</Link>
-            <Link href="#Testimonials">Testimonials</Link>
-            <Link href="#Contact">Contact</Link>
+            <a href="#about">About</a>
+            <a href="#work">Work</a>
+            <a href="#Testimonials">Testimonials</a>
+            <a href="#Contact">Contact</a>
             <span className="text-gray-200">|</span>
           </div>
           <div className="flex justify-between gap-x-4 items-center">

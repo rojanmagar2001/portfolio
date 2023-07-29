@@ -3,7 +3,10 @@ import React from "react";
 
 export const AboutSection = () => {
   return (
-    <section className="w-full h-full bg-gray-50 dark:bg-[#111827] overflow-hidden">
+    <section
+      id="about"
+      className="w-full h-full bg-gray-50 dark:bg-[#111827] overflow-hidden"
+    >
       <div className="container mx-auto">
         <div className="w-full flex flex-col items-center justify-center">
           <div className="mt-24 mb-10 bg-gray-200 dark:bg-[#374151]  w-[105px] h-[28px] flex flex-col items-center justify-center rounded-[12px] cursor-pointer">
@@ -14,7 +17,7 @@ export const AboutSection = () => {
             <div className="w-full h-full flex flex-col items-center justify-center mb-10 md:mb-0">
               <div className="w-[400px] h-[360px] flex flex-col justify-center items-center relative">
                 <Image
-                  src="/about.jpg"
+                  src="/about-img.jpg"
                   width={400}
                   height={480}
                   alt="profile"

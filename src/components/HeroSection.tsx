@@ -81,7 +81,7 @@ export const HeroSection = () => {
           <div className="w-full h-full flex flex-col items-center md:items-end justify-center mb-5 md:mb-0">
             <div className="w-[400px] h-[360px] flex flex-col justify-center items-center relative">
               <Image
-                src="/profile.jpg"
+                src="/profile-img.jpg"
                 width={280}
                 height={320}
                 alt="profile"

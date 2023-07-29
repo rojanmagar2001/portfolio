@@ -1,8 +1,8 @@
-"use client";
+
 import "./globals.css";
 import type { Metadata } from "next";
 import { Roboto } from "next/font/google";
-import { ThemeProvider } from "next-themes";
+
 
 const roboto = Roboto({
   subsets: ["latin"],
@@ -22,7 +22,8 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body style={roboto.style} className={roboto.className}>
-        <ThemeProvider attribute="class">{children}</ThemeProvider>
+        {children}
+        
       </body>
     </html>
   );
