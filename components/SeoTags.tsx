@@ -25,7 +25,7 @@ const SeoTags = () => {
 
       {/* Open Graph */}
       <meta property="og:url" content={tags.url} key="ogurl" />
-      <meta property="og:image" content="/cover.png" key="ogimage" />
+      <meta property="og:image" content="/og-img.JPG" key="ogimage" />
       <meta property="og:site_name" content={tags.title} key="ogsitename" />
       <meta property="og:title" content={tags.title} key="ogtitle" />
       <meta property="og:description" content={tags.description} key="ogdesc" />
