@@ -12,6 +12,7 @@
   },
   "dependencies": {
     "@headlessui/react": "^1.0.0",
+    "@next/third-parties": "^14.2.4",
     "autoprefixer": "^10.1.0",
     "axios": "^0.21.1",
     "caniuse-lite": "^1.0.30001632",

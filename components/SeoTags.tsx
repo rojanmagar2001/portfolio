@@ -29,6 +29,15 @@ const SeoTags = () => {
       <meta property="og:site_name" content={tags.title} key="ogsitename" />
       <meta property="og:title" content={tags.title} key="ogtitle" />
       <meta property="og:description" content={tags.description} key="ogdesc" />
+      <script
+        dangerouslySetInnerHTML={{
+          __html: `(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+                  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+                  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+                  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+                  })(window,document,'script','dataLayer','GTM-M7VXHV58');`,
+        }}
+      ></script>
     </Head>
   );
 };

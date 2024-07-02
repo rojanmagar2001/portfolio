@@ -5,7 +5,7 @@ import { container, text_reveal, text_reveal_fade } from "../utils/Animation";
 import { Frame } from "../components";
 
 const About = () => {
-  const texts = [{ content: "One pixel at a time" }];
+  const texts = [{ content: "Rojan Rana Magar" }];
 
   const textList = texts.map((text, index) => (
     <div className="overflow-hidden" key={index}>
