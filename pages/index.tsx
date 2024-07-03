@@ -11,7 +11,7 @@ const About = () => {
     <div className="overflow-hidden" key={index}>
       <motion.div
         style={{ fontSize: "5rem" }}
-        className="mb-8 gradient-text"
+        className="mb-8 gradient-text text-3xl md:text-[5rem]"
         variants={text_reveal}
       >
         {text.content}

@@ -7,7 +7,7 @@ export default function Document(): JSX.Element {
     <Html lang="en">
       <Head />
       {/* <GoogleTagManager gtmId="GTM-M7VXHV58" /> */}
-      <body className="overflow-hidden">
+      <body className="md:overflow-hidden">
         <Main />
         <NextScript />
         <noscript>
