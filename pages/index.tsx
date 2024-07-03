@@ -9,11 +9,7 @@ const About = () => {
 
   const textList = texts.map((text, index) => (
     <div className="overflow-hidden" key={index}>
-      <motion.div
-        style={{ fontSize: "5rem" }}
-        className="mb-8 gradient-text text-3xl md:text-[5rem]"
-        variants={text_reveal}
-      >
+      <motion.div className="mb-8 gradient-text " variants={text_reveal}>
         {text.content}
       </motion.div>
     </div>
@@ -28,8 +24,11 @@ const About = () => {
         exit="exit"
         className="flex"
       >
-        <motion.div variants={container} className="md:w-1/2 lg:pl-36">
-          {textList}
+        <motion.div
+          variants={container}
+          className="mt-16 md:mt-0 2xl:w-1/2 lg:pl-36"
+        >
+          <div className="text-4xl md:text-6xl 2xl:text-8xl">{textList}</div>
           <motion.p
             variants={text_reveal_fade}
             style={{ lineHeight: "2.1rem", fontSize: "17px" }}
@@ -45,7 +44,7 @@ const About = () => {
             <span className="underline-span">programming</span> .
           </motion.p>
         </motion.div>
-        <div className="md:static fixed md:block w-1/2">
+        <div className="md:static fixed md:block xl:w-1/2">
           <Frame radius="rounded-md" />
         </div>
       </motion.div>
