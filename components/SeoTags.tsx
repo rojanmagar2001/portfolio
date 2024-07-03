@@ -1,7 +1,7 @@
 import Head from "next/head";
 
 const tags = {
-  title: "Rojan Rana Magar - Full Stack Developer",
+  title: "Rojan Rana Magar - Software Engineer | Full Stack Developer",
   description:
     "Software engineer | Full Stack Developer | Passionate Learner | Typescript | React | Rust | NestJs | Node. Working as a professional Full Stack Developer",
   url: "https://rojanranamagar.com.np",
